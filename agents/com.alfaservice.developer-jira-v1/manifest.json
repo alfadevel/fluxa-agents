@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "packageId": "com.alfaservice.developer-jira-v1",
+  "agentId": "developer-jira-template",
+  "version": "1.0.0",
+  "apiVersion": "fluxa/v1",
+  "kind": "DeveloperProfile",
+  "title": "Developer — coding da Jira via Cursor",
+  "description": "Template developer AI — ticket Jira assignee → Cursor locale su repo mappati.",
+  "author": {
+    "name": "Alfa Service",
+    "orgId": "alfaservice"
+  },
+  "license": "MIT",
+  "visibility": "public",
+  "minCoreVersion": "0.1.0",
+  "requirements": {
+    "integrations": [
+      "jira"
+    ],
+    "env": [
+      "CURSOR_API_KEY"
+    ],
+    "configRefs": [
+      "accounts.jira",
+      "accounts.cursor"
+    ],
+    "npmScript": "agent:once",
+    "hostWiring": []
+  },
+  "files": [
+    {
+      "path": "agent/profile.yaml",
+      "sha256": "4b19cbe7cda8c2c522728b0b347317d029f2b0f3cbb92cf52d11249545861172"
+    },
+    {
+      "path": "agent/registry.fragment.yaml",
+      "sha256": "a8b43bc55f9efc82c59022d0037cd59ac3fa70dd986efeb2fee5f32cb7fcb757"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b982b2e2c1baec3119aec46f6047df61a91389b92acc5306cca8d9140b24b712"
+    },
+    {
+      "path": "rules/project-map.yaml",
+      "sha256": "6ba73b4e0dc135b8932591a5e5df00c3f0627d3da2b9d2ae43c5b75f7cd14b25"
+    },
+    {
+      "path": "rules/workflow-rules.md",
+      "sha256": "07c5e67df2f5ec5b48ccf2a98c382ffeb14f2cbdf63af4d79627ebef71b0bc08"
+    }
+  ],
+  "signature": "rZHWdQjZWURIIZeUI0CljvZ3QElAqj+Bvpxv/9sHbidVOtU3MSYtGI5jNWg0ABJwY1fk+ampNPqp9ZqsaRvEAQ=="
+}

@@ -1,0 +1,15 @@
+{
+  "name": "fluxa-agents",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Catalogo pubblico agent pack Fluxa (DEC-013)",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-pack.mjs",
+    "validate:self-test": "node scripts/validate-pack.mjs --self-test",
+    "build:seeds": "node scripts/build-seed-packs.mjs"
+  }
+}

@@ -1,0 +1,32 @@
+name: validate-pack
+
+on:
+  pull_request:
+    branches: [main, master]
+    paths:
+      - "agents/**"
+      - "index.json"
+      - "schemas/**"
+      - "scripts/**"
+      - ".github/workflows/validate-pack.yml"
+  push:
+    branches: [main, master]
+    paths:
+      - "agents/**"
+      - "index.json"
+      - "schemas/**"
+      - "scripts/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate catalog and packs (AC-4, AC-9)
+        run: |
+          node scripts/validate-pack.mjs --self-test

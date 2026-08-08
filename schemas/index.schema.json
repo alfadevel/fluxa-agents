@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://getfluxa.it/schemas/index.schema.json",
+  "title": "Fluxa Agent Catalog Index",
+  "type": "object",
+  "required": ["schemaVersion", "catalogVersion", "updatedAt", "agents"],
+  "additionalProperties": true,
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "catalogVersion": { "type": "string", "minLength": 1 },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "packageId",
+          "version",
+          "title",
+          "description",
+          "downloadUrl",
+          "sha256",
+          "signature"
+        ],
+        "properties": {
+          "packageId": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)*$"
+          },
+          "agentId": { "type": "string" },
+          "version": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "kind": { "type": "string" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "license": { "type": "string" },
+          "minCoreVersion": { "type": "string" },
+          "downloadUrl": { "type": "string", "format": "uri" },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "signature": { "type": "string" },
+          "sourceUrl": { "type": "string", "format": "uri" }
+        }
+      }
+    }
+  }
+}

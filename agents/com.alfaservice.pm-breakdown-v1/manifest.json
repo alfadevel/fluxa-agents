@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "packageId": "com.alfaservice.pm-breakdown-v1",
+  "agentId": "pm-breakdown-template",
+  "version": "1.0.0",
+  "apiVersion": "fluxa/v1",
+  "kind": "ProjectManagerProfile",
+  "title": "PM — analisi e breakdown Jira",
+  "description": "Template project manager — label ANALISI → analisi codebase → breakdown Story/Sottotask Jira.",
+  "author": {
+    "name": "Alfa Service",
+    "orgId": "alfaservice"
+  },
+  "license": "MIT",
+  "visibility": "public",
+  "minCoreVersion": "0.1.0",
+  "requirements": {
+    "integrations": [
+      "jira"
+    ],
+    "env": [],
+    "configRefs": [
+      "accounts.jira",
+      "accounts.cursor"
+    ],
+    "npmScript": "pm:once",
+    "hostWiring": []
+  },
+  "files": [
+    {
+      "path": "agent/profile.yaml",
+      "sha256": "c01fd3baee363ab1a4c5d3282ec71d9db03399603e7f7dcaca888d4e21847387"
+    },
+    {
+      "path": "agent/registry.fragment.yaml",
+      "sha256": "06c16feec0c2da36db1d3c9f6692e9129e9974825040127ff55d11e5a5441a30"
+    },
+    {
+      "path": "README.md",
+      "sha256": "808a176ccc3e0e1a7ddf7b4b795b2ea94b95eadbfaa908463e50459efdc4f560"
+    },
+    {
+      "path": "rules/pm-rules.md",
+      "sha256": "fcadd2ee5c31ad40f3de5ce5503d7371ad2facba46ede64f50d6d47f47c7b072"
+    },
+    {
+      "path": "rules/project-map.yaml",
+      "sha256": "6ba73b4e0dc135b8932591a5e5df00c3f0627d3da2b9d2ae43c5b75f7cd14b25"
+    }
+  ],
+  "signature": "G7HssiJ7QfLMLkbm6pt2HE5aSwsmH89WK+nsGg4SBAmvzLSSy+mcWhITzVDLG7U5imT1X0i5jEl5uFRteSAaCw=="
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "packageId": "com.alfaservice.support-rag-v1",
+  "agentId": "support-rag-template",
+  "version": "1.0.0",
+  "apiVersion": "fluxa/v1",
+  "kind": "SupportProfile",
+  "title": "Supporto RAG documentazione",
+  "description": "Template supporto tecnico — ticket Jira → RAG documentazione → risposta con fonti.",
+  "author": {
+    "name": "Alfa Service",
+    "orgId": "alfaservice"
+  },
+  "license": "MIT",
+  "visibility": "public",
+  "minCoreVersion": "0.1.0",
+  "requirements": {
+    "integrations": [
+      "rag",
+      "jira"
+    ],
+    "env": [],
+    "configRefs": [
+      "accounts.jira",
+      "accounts.cursor"
+    ],
+    "npmScript": "support:once",
+    "hostWiring": []
+  },
+  "files": [
+    {
+      "path": "agent/profile.yaml",
+      "sha256": "01cd2ebf446ea86634275bf3c55a4b89c09f212aeddcb64d54b6e712fe6282c0"
+    },
+    {
+      "path": "agent/registry.fragment.yaml",
+      "sha256": "76fdfd1c761c89d091585904b2b313a9c13e0e67f534a5a64522202ba238ef55"
+    },
+    {
+      "path": "README.md",
+      "sha256": "35c2b95c37c37d2b19b1dc67ee3cdda20b9b2bc0fa4f794cdc0793309bf6991c"
+    },
+    {
+      "path": "rules/support-rules.md",
+      "sha256": "e0f09fd1eb0e2edb162b65a02e5b83034fe369181814924fdc24dcbf5d1cfa25"
+    }
+  ],
+  "signature": "rShjSlleBftO1gZ+2MdewRBofks0BwwC0l9XpVD54Q15ciYMCbFyWXJM4wMQdEse8RVVVzEOLak+f2zOESxTDQ=="
+}
