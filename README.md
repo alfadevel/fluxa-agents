@@ -2,7 +2,7 @@
 
 Catalogo pubblico **agent pack Fluxa** (formato `.fluxa-agent` v1, DEC-012/013).
 
-Repo standalone target: [`alfaservice/fluxa-agents`](https://github.com/alfaservice/fluxa-agents).
+Repo standalone target: [`alfadevel/fluxa-agents`](https://github.com/alfadevel/fluxa-agents).
 
 ## Layout
 
@@ -61,12 +61,12 @@ In dev/test: `FLUXA_AGENT_PACK_DEV_SIGN=1` + export da Fluxa ops, oppure `script
 
 ## Publish remoto (passo umano)
 
-Il remote GitHub **`alfaservice/fluxa-agents`** va creato e pushato manualmente:
+Il remote GitHub **`alfadevel/fluxa-agents`** va creato e pushato manualmente:
 
 ```bash
 cd fluxa-agents
 git init
-git remote add origin git@github.com:alfaservice/fluxa-agents.git
+git remote add origin git@github.com:alfadevel/fluxa-agents.git
 git add .
 git commit -m "feat(catalog): ho pubblicato il catalogo seed agent pack v1"
 git push -u origin main

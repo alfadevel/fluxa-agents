@@ -20,7 +20,7 @@
       "downloadUrl": "https://getfluxa.it/agents/com.alfaservice.support-rag-v1/1.0.0/pack.fluxa-agent",
       "sha256": "e834140dc928c4289c72a6ea18c9dfc22f18a04712601700d606371b9cbecfbc",
       "signature": "rShjSlleBftO1gZ+2MdewRBofks0BwwC0l9XpVD54Q15ciYMCbFyWXJM4wMQdEse8RVVVzEOLak+f2zOESxTDQ==",
-      "sourceUrl": "https://github.com/alfaservice/fluxa-agents/tree/main/agents/com.alfaservice.support-rag-v1"
+      "sourceUrl": "https://github.com/alfadevel/fluxa-agents/tree/main/agents/com.alfaservice.support-rag-v1"
     },
     {
       "packageId": "com.alfaservice.pm-breakdown-v1",
@@ -39,7 +39,7 @@
       "downloadUrl": "https://getfluxa.it/agents/com.alfaservice.pm-breakdown-v1/1.0.0/pack.fluxa-agent",
       "sha256": "8e84ee3128a8a1715e9491b7aefa84dd9d044313a2b36cdfa28e862eca150c54",
       "signature": "G7HssiJ7QfLMLkbm6pt2HE5aSwsmH89WK+nsGg4SBAmvzLSSy+mcWhITzVDLG7U5imT1X0i5jEl5uFRteSAaCw==",
-      "sourceUrl": "https://github.com/alfaservice/fluxa-agents/tree/main/agents/com.alfaservice.pm-breakdown-v1"
+      "sourceUrl": "https://github.com/alfadevel/fluxa-agents/tree/main/agents/com.alfaservice.pm-breakdown-v1"
     },
     {
       "packageId": "com.alfaservice.developer-jira-v1",
@@ -58,7 +58,7 @@
       "downloadUrl": "https://getfluxa.it/agents/com.alfaservice.developer-jira-v1/1.0.0/pack.fluxa-agent",
       "sha256": "680cd707b5c6853e761f189c697112659517cbbcea948d5deb7e67238604b305",
       "signature": "rZHWdQjZWURIIZeUI0CljvZ3QElAqj+Bvpxv/9sHbidVOtU3MSYtGI5jNWg0ABJwY1fk+ampNPqp9ZqsaRvEAQ==",
-      "sourceUrl": "https://github.com/alfaservice/fluxa-agents/tree/main/agents/com.alfaservice.developer-jira-v1"
+      "sourceUrl": "https://github.com/alfadevel/fluxa-agents/tree/main/agents/com.alfaservice.developer-jira-v1"
     }
   ]
 }

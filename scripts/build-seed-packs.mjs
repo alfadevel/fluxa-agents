@@ -503,7 +503,7 @@ function main() {
       downloadUrl: `https://getfluxa.it/agents/${seed.packageId}/${seed.version}/pack.fluxa-agent`,
       sha256: sha256Hex(buffer),
       signature: manifest.signature,
-      sourceUrl: `https://github.com/alfaservice/fluxa-agents/tree/main/agents/${seed.packageId}`,
+      sourceUrl: `https://github.com/alfadevel/fluxa-agents/tree/main/agents/${seed.packageId}`,
     });
   }
 
