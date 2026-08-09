@@ -2,7 +2,7 @@
 
 Catalogo pubblico **agent pack Fluxa** (formato `.fluxa-agent` v1, DEC-012/013).
 
-Repo standalone target: [`alfadevel/fluxa-agents`](https://github.com/alfadevel/fluxa-agents).
+Repo standalone target: [`fluxa-ai/fluxa-agents`](https://github.com/fluxa-ai/fluxa-agents).
 
 ## Layout
 
@@ -61,16 +61,20 @@ In dev/test: `FLUXA_AGENT_PACK_DEV_SIGN=1` + export da Fluxa ops, oppure `script
 
 ## Publish remoto (passo umano)
 
-Il remote GitHub **`alfadevel/fluxa-agents`** va creato e pushato manualmente:
+**Stato attuale:** il catalogo è già pubblico su GitHub come [`alfadevel/fluxa-agents`](https://github.com/alfadevel/fluxa-agents) (2 commit su `main`). Il clone locale ha `origin` puntato al target dichiarato **`fluxa-ai/fluxa-agents`** (DEC-036); il push verso quella org non è ancora avvenuto.
 
-```bash
-cd fluxa-agents
-git init
-git remote add origin git@github.com:alfadevel/fluxa-agents.git
-git add .
-git commit -m "feat(catalog): ho pubblicato il catalogo seed agent pack v1"
-git push -u origin main
-```
+**Checklist pre-push verso `fluxa-ai/fluxa-agents`:**
+
+1. Creare l'organizzazione GitHub **`fluxa-ai`** (se non esiste) e il repo **`fluxa-ai/fluxa-agents`** (vuoto o con README minimo).
+2. Verificare il remote locale: `git remote -v` → `https://github.com/fluxa-ai/fluxa-agents.git` (o equivalente SSH).
+3. Verificare assenza di secret nel working tree (`npm run validate` include secret scan).
+4. Eseguire il push: `git push -u origin main`.
+
+**Repo `alfadevel/fluxa-agents` esistente** — decisione umana (fuori scope codice):
+
+- **Mantenere** come mirror/storico (eventualmente aggiornare README con link a `fluxa-ai/fluxa-agents`).
+- **Archiviare** su GitHub dopo il push su `fluxa-ai`.
+- **Reindirizzare** i link pubblici (README, issue tracker) verso il nuovo repo.
 
 Mirror su getfluxa.it (`public/agents/`) — feature F03, fuori scope qui.
 
