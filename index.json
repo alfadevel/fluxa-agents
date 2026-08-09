@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "catalogVersion": "2026.08.1",
-  "updatedAt": "2026-08-09T16:07:04.673Z",
+  "updatedAt": "2026-08-09T17:02:18.858Z",
   "agents": [
     {
       "packageId": "com.alfaservice.support-rag-v1",
@@ -18,8 +18,8 @@
       "license": "MIT",
       "minCoreVersion": "0.1.0",
       "downloadUrl": "https://getfluxa.it/agents/com.alfaservice.support-rag-v1/1.0.0/pack.fluxa-agent",
-      "sha256": "53da7c9dad2a756c605d53d9284d6f5473b0f76b32d693e045256017b341cf89",
-      "signature": "rShjSlleBftO1gZ+2MdewRBofks0BwwC0l9XpVD54Q15ciYMCbFyWXJM4wMQdEse8RVVVzEOLak+f2zOESxTDQ==",
+      "sha256": "d002a999171c8cb35e0617a0e9585541cc4ac91167f966fa60d32fd3f9698f1f",
+      "signature": "aNPyLQUod5XMWUuTj5ESs1o8KzOKyijqqtGu3HgubDZTLbRXP2oh6KEpbK8jmwQCe+E9XhEHK5awPToHnk3DDg==",
       "sourceUrl": "https://github.com/fluxa-ai/fluxa-agents/tree/main/agents/com.alfaservice.support-rag-v1"
     },
     {
@@ -37,8 +37,8 @@
       "license": "MIT",
       "minCoreVersion": "0.1.0",
       "downloadUrl": "https://getfluxa.it/agents/com.alfaservice.pm-breakdown-v1/1.0.0/pack.fluxa-agent",
-      "sha256": "f134b82bbc74fab059aed0feada6e82fad1981286e78370bd9b5ce81a2285112",
-      "signature": "G7HssiJ7QfLMLkbm6pt2HE5aSwsmH89WK+nsGg4SBAmvzLSSy+mcWhITzVDLG7U5imT1X0i5jEl5uFRteSAaCw==",
+      "sha256": "5e3899ce1753199b93b41aa79aef41a351497a4bac9c42e7483fa34dedaf6a80",
+      "signature": "IY3qgdQp8iHKudt6E1qA8ySZjWTSvmXRUXIEiJXpoHqXP3xcS7Gfck3aFscB96Q9+lUtZ50YIzp3LTzWRdcWCA==",
       "sourceUrl": "https://github.com/fluxa-ai/fluxa-agents/tree/main/agents/com.alfaservice.pm-breakdown-v1"
     },
     {
@@ -56,8 +56,8 @@
       "license": "MIT",
       "minCoreVersion": "0.1.0",
       "downloadUrl": "https://getfluxa.it/agents/com.alfaservice.developer-jira-v1/1.0.0/pack.fluxa-agent",
-      "sha256": "c21411f22c2cca41e1532dd379fe268c09310308aaace7809bc3750cf4079fee",
-      "signature": "rZHWdQjZWURIIZeUI0CljvZ3QElAqj+Bvpxv/9sHbidVOtU3MSYtGI5jNWg0ABJwY1fk+ampNPqp9ZqsaRvEAQ==",
+      "sha256": "99838bc394a918513ee32bd222d715b1704c33e41eb60bb854d96899e2582f32",
+      "signature": "a9Meu3LchW9x7iQcs5UwnvhQkNTHY5RTUIkhG+ZM2qEmApcCgmu2sE3nN2DRyYo0WekbasmpXh/xVVxYCZYdBw==",
       "sourceUrl": "https://github.com/fluxa-ai/fluxa-agents/tree/main/agents/com.alfaservice.developer-jira-v1"
     }
   ]
